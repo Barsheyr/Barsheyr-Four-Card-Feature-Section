@@ -1,0 +1,32 @@
+@media only screen and (max-width: 767px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .headcenter {
+        padding: 15% 10%;
+    }
+    .box1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .box2 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .box4 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .box3 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    footer {
+        display: none;
+    }
+    .attribution a {
+        margin-top: 100%;
+    }
+}
